@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-shoppers</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <!-- build:css assets/css/styles.css -->
+
+</head>
+<body ng-app="eshopper">
+    <header>
+        <!--nav bar should build here-->
+        <a href="#" ui-sref="/home">home</a>
+    </header>
+    <div class="container" ui-view>
+        <!-- Main body here-->
+    </div>
+    <footer>
+        <!--footer should go here-->
+    </footer>
+
+
+    <!-- ASSETS -->
+        <script src="../lib/angular.min.js"></script>
+        <script src="../lib/angular-animate.min.js"></script>
+        <script src="../lib/angular-ui-router.min.js"></script>
+
+    <!-- ASSEST END -->
+    
+    <!--Module JS start-->
+    <script src="app.js"></script>
+    <script src="home/home.module.js"></script>
+    <script src="home/home.controller.js"></script>
+    <!-- MODULES -->
+</body>
+</html>
