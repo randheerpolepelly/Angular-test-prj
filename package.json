@@ -1,0 +1,23 @@
+{
+  "name": "eshopper",
+  "version": "1.0.0",
+  "description": "my angular poc",
+  "main": "index.js",
+  "scripts": {
+    "test": "testrun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randheerpolepelly/eshopper.git"
+  },
+  "author": "Randheer Reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randheerpolepelly/eshopper/issues"
+  },
+  "homepage": "https://github.com/randheerpolepelly/eshopper#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^1.0.0"
+  }
+}
